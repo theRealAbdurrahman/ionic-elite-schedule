@@ -21,5 +21,8 @@ export class TournamentsPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad TournamentsPage');
   }
+  itemTapped() {
+    this.navCtrl.push("TeamsPage")
+  }
 
 }
