@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the TeamDetailPage page.
+ * Generated class for the TeamHomePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,20 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-team-detail',
-  templateUrl: 'team-detail.html',
+  selector: 'page-team-home',
+  templateUrl: 'team-home.html',
 })
-export class TeamDetailPage {
-  private teamData: any = {};
+export class TeamHomePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-
-    this.teamData = this.navParams.data;
-    console.log(this.teamData);
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad TeamDetailPage');
+    console.log('ionViewDidLoad TeamHomePage');
   }
 
 }
